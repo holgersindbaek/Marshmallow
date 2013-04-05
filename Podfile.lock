@@ -1,0 +1,56 @@
+PODS:
+  - AFHTTPRequestOperationLogger (0.10.0):
+    - AFNetworking (>= 0.9.0)
+  - AFNetworking (1.2.0)
+  - IFToastingKit (0.1.0):
+    - AFNetworking
+    - SBJson
+  - MagicalRecord (2.1)
+  - MASPreferences (1.0)
+  - NSAttributedString+Geometrics (0.0.1)
+  - ObjectiveSugar (0.6.2)
+  - Reachability (3.1.0)
+  - Rebel (0.2):
+    - Rebel/NSColorExtensions
+  - Rebel/NSColorExtensions (0.2)
+  - SBJson (3.2)
+  - twitter-text-objc (HEAD based on 0.0.1)
+  - ZWEmoji (0.3.1)
+
+DEPENDENCIES:
+  - AFHTTPRequestOperationLogger
+  - AFNetworking
+  - IFToastingKit (from `https://github.com/irrationalfab/IFToastingKit`)
+  - MagicalRecord
+  - MASPreferences
+  - NSAttributedString+Geometrics (from `Podspecs`)
+  - ObjectiveSugar
+  - Reachability
+  - Rebel
+  - SBJson
+  - twitter-text-objc (HEAD)
+  - ZWEmoji (from `https://github.com/zachwaugh/ZWEmoji`)
+
+EXTERNAL SOURCES:
+  IFToastingKit:
+    :git: https://github.com/irrationalfab/IFToastingKit
+  NSAttributedString+Geometrics:
+    :podspec: Podspecs
+  ZWEmoji:
+    :git: https://github.com/zachwaugh/ZWEmoji
+
+SPEC CHECKSUMS:
+  AFHTTPRequestOperationLogger: 34ba125cb9eeb77a3b67aaaca105720ba3a0798c
+  AFNetworking: 3cbae45f61a9f995cdbd56bd571223910d7f4e44
+  IFToastingKit: bf01a64d6f590c23264552d7bb08181876269757
+  MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
+  MASPreferences: b8c112b4b6e6cbd32b8f49d249eb152d1eeb38f8
+  NSAttributedString+Geometrics: 4e32024e898964857c397aa526fa61f438dd1b71
+  ObjectiveSugar: 50bcd329b18ab6da6457e1bf55be71acb7c39d44
+  Reachability: ba94ecd4eaa037be3d0588b38956672588530c5b
+  Rebel: 78a94e49a3f16dad45e99bc141a2002a76558e52
+  SBJson: 4971016670e7b3fa04a36d4e72ab0fb1ad3a9f69
+  twitter-text-objc: e8efd99833a527dd5e616b81940beb6bf17401d0
+  ZWEmoji: 1379c69eae2c0d1fd40ad3224c03238fa2c7bcce
+
+COCOAPODS: 0.17.2
