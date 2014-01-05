@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { "Jerry Krinock" => "jerry@sheepsystems.com" }
   s.source       = { :git => "https://github.com/jerrykrinock/CategoriesObjC.git", :commit => "5f78c2896829b101193bf2bb76b10f0b66e02f0a" }
   s.source_files = 'NS(Attributed)String+Geometrics/NS(Attributed)String+Geometrics.{h,m}'
-  s.platform     = :osx
+  s.platform     = :ios
 end
